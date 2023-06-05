@@ -539,6 +539,9 @@ footer h4{
     justify-content: space-around;
     align-items: center;
   }
+  .map figure {
+    padding-bottom: 45.5%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -567,6 +570,10 @@ footer h4{
 
   .features-item {
     margin: 0 30px;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
   /*------About Page Styles-------*/
   .mission h2 {
