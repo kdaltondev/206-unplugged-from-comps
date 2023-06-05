@@ -198,10 +198,9 @@ nav ul li {
 .hero-section {
   min-height: 500px;
   border: 5px solid blue;
-  background-image: url("../img/unplugged-retreat.jpg");
-  background-position: center;
+  background: url("../img/unplugged-retreat.jpg") center no-repeat #333;
   background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .hero-section h1 {
@@ -255,10 +254,8 @@ input[type="button"] {
 .features-section {
   border: 5px solid blue;
   padding: 50px 0;
-  background-image: url("../img/unplugged-retreat-features.jpg");
+  background: url("../img/unplugged-retreat-features.jpg") center no-repeat #333;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .features-section h2 {
@@ -303,6 +300,10 @@ footer {
   text-align: center;
 }
 
+footer h4{
+  padding:20px 0;
+}
+
 .social-info {
   padding: 40px 0;
 }
@@ -315,6 +316,21 @@ footer {
 }
 .mission p {
   margin: 15px 0;
+}
+
+.map{
+  position:relative;
+  padding-bottom:75%;/*---height/width----*/
+  height:0;
+  overflow:hidden;
+}
+
+.map iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 .contact-us {
   background-color: var(--review-bckgrnd);
