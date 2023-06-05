@@ -557,6 +557,24 @@ footer h4{
     justify-content: space-around;
     align-items: center;
   }
+  .mission h2{
+    padding-bottom:30px;
+  }
+  .mission-two-column{
+    display:flex;
+    justify-content:space-between;
+  }
+  .mission-two-column p{
+    width:45%;
+  }
+.faqs-group{
+  display:flex;
+  justify-content:space-around;
+  flex-flow:row wrap;
+}
+.faq-item{
+  width:45%;
+}
   .map figure {
     padding-bottom: 45.5%;
   }
@@ -590,6 +608,7 @@ footer h4{
     margin: 0 30px;
   }
 
+ 
   .map figure {
     padding-bottom: 37.5%;
   }
