@@ -135,6 +135,11 @@ h2 {
   font-weight: 500;
 }
 
+a{
+  text-decoration:none;
+  color:var(--text-color);
+}
+
 .reviews h2 {
   line-height: 1.875rem;
 }
@@ -461,7 +466,8 @@ footer h4{
 
 @media only screen and (min-width: 765px) {
   .logo {
-    margin: 0;
+    margin: auto 0;
+    padding:0;
   }
   h1 {
     font-size: 3em;
@@ -521,7 +527,7 @@ footer h4{
     flex-flow: row wrap;
   }
   article {
-    width: 34%;
+    width: 47%;
   }
 
   .features-item {
@@ -541,10 +547,10 @@ footer h4{
     align-items: flex-start;
   }
   .reference-img {
-    width: 40%;
+    width: 45%;
   }
   .reference-info {
-    width: 55%;
+    width: 54%;
   }
   .contact {
     display: flex;
@@ -577,7 +583,7 @@ footer h4{
   }
 
   article {
-    width: 25%;
+    width: 27%;
   }
 
   .features-item {
@@ -586,6 +592,10 @@ footer h4{
 
   .map figure {
     padding-bottom: 37.5%;
+  }
+
+  .contact{
+    justify-content:space-between;
   }
   /*------About Page Styles-------*/
   .mission h2 {
