@@ -155,6 +155,9 @@ li{
   font-size:1.125em;
   font-weight:500;
 }
+img{
+  width:100%;
+}
 .fontawesome-icons{
   font-size:3.75em;
 }
@@ -170,11 +173,12 @@ header{
   border:5px solid green;
 }
 figure{
-  text-align:center;
+  
 }
 .logo {
-  margin:0;
+  margin:0 auto;
   padding-bottom:10px;
+  width:200px
 }
 nav{
 margin:0;
@@ -290,13 +294,15 @@ padding-bottom:60px;
 
 .individual-reference-card{
   padding-top:40px;
-
   width:100%;
 }
 
 .references h3{
-
   text-align:left;
+}
+
+.references figure{
+  margin-bottom:20px;
 }
 /*--------Footer Section -----*/
 
@@ -400,6 +406,9 @@ footer{
    ========================================================================== */
 
 @media only screen and (min-width: 765px) {
+  .logo {
+    margin:0;
+  }
 h1{
   font-size:3em;
   line-height:3rem;;
@@ -475,11 +484,15 @@ article{
 .individual-reference-card{
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
-  align-items:center;
+  justify-content:space-between;
+  align-items:flex-start;
 }
-.references img{
+.reference-img{
   width:40%;
+}
+.reference-info{
+  width:55%;
+
 }
 .contact{
   display:flex;
