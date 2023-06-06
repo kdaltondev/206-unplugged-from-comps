@@ -172,7 +172,6 @@ address {
 /*------Header Styles---------------*/
 header {
   padding: 15px 0;
-  border: 5px solid green;
 }
 figure {
 }
@@ -202,7 +201,6 @@ nav ul li {
 /*-------Hero Section -------*/
 .hero-section {
   min-height: 500px;
-  border: 5px solid blue;
   background: url("../img/unplugged-retreat.jpg") center no-repeat #333;
   background-size: cover;
   padding:50px 0;
@@ -214,7 +212,6 @@ nav ul li {
 /*------Sign-up Form--------*/
 
 aside {
-  border: 5px solid green;
   padding: 50px 0;
   background:var(--aside-bckgrnd);
 }
@@ -257,7 +254,6 @@ input[type="button"] {
 }
 /*------Features Section ------*/
 .features-section {
-  border: 5px solid blue;
   padding: 50px 0;
   background: url("../img/unplugged-retreat-features.jpg") center no-repeat #333;
   background-size: cover;
@@ -286,7 +282,6 @@ input[type="button"] {
 /*----References Section ----*/
 
 .references {
-  border: 5px solid green;
   padding: 50px 0;
   background:var(--review-bckgrnd);
 }
@@ -311,7 +306,6 @@ input[type="button"] {
 
 footer {
   padding: 50px 0;
-  border: 5px solid blue;
   text-align: center;
 }
 
