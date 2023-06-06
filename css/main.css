@@ -567,6 +567,18 @@ footer h4{
   .mission-two-column p{
     width:45%;
   }
+
+  .info{
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .general-info{
+    width:45%;
+  }
+  .facilitator-info{
+    width:45%;
+  }
 .faqs-group{
   display:flex;
   justify-content:space-around;
